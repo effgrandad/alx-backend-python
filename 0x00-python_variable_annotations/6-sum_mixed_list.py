@@ -9,7 +9,7 @@ With Union types
 from typing import Union, List
 
 
-def sum_mixed_list(mxd_list: mdx_list_type) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     '''
     Sum a list of mixed values (int and floats)
     '''
